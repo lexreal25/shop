@@ -31,6 +31,8 @@ body {
 .jumbo {
     width: 100%;
     height: 550px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
 }
 /********END********/
 
@@ -220,6 +222,16 @@ h4 {
 #img {
     width: 100%;
     height: 200px;
+}
+#img {
+   /* -webkit-filter: invert(0.8);
+    filter: invert(0.8) */
+  /*  -webkit-filter: grayscale(1);
+    filter: grayscale(1); */
+    -webkit-filter: saturate(1);
+    filter: saturate(1);
+  /*  -webkit-filter:drop-shadow(rgba(0, 0, 0, 0.9) 16px 16px 10px);
+    filter: drop-shadow(rgba(0, 0, 0, 0.9) 16px 16px 10px); */
 }
 h3 {
     text-align: center;
